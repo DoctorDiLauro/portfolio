@@ -56,12 +56,17 @@ html {
   left: 1em;
 }
 
-.name {
+.title {
   font-size: 300%;
   line-height: .9;
 
   border-bottom: #000 solid 7px;
   transition: all ease 400ms;
+}
+
+.about-txt {
+  max-width: 65%;
+  font-size: 85%;
 }
 
 nav {
@@ -78,12 +83,17 @@ nav a {
   display: inline-block;
   margin-bottom: 1.5em;
 
-  font-size: 85%;
+  font-size: 1rem;
   transition: all ease 400ms;
 }
 
 nav a:hover {
   padding: 1em 2em;
+}
+
+.about-bg {
+  background-color: #e2e2e2;
+  height: 100%;
 }
 
 @media only screen and (min-width: 25em) {
@@ -93,7 +103,7 @@ nav a:hover {
     padding: 2.5em;
   }
 
-  .name {
+  .title {
     font-size: 500%;
 
     border-bottom: #000 solid 10px;
@@ -107,10 +117,14 @@ nav a:hover {
     padding: 3em;
   }
 
-  .name {
+  .title {
     font-size: 700%;
 
     border-bottom: #000 solid 12px;
+  }
+
+  .about-txt {
+    max-width: 50%;
   }
 
 }
@@ -121,7 +135,7 @@ nav a:hover {
     padding: 3.5em;
   }
 
-  .name {
+  .title {
     font-size: 800%;
 
     border-bottom: #000 solid 16px;
@@ -161,7 +175,7 @@ nav a:hover {
     padding: 4em;
   }
 
-  .name {
+  .title {
     font-size: 900%;
 
     border-bottom: #000 solid 20px;
