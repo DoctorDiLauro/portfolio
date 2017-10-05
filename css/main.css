@@ -35,7 +35,34 @@ html {
 }
 
 .img-one {
-  background-color: #e2e2e2;
+  background-image: #000, url("../images/ersatz-era-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.img-one {
+  background-image: url("../images/ersatz-era-cover.jpg");
+}
+
+.label {
+  height: 100%;
+}
+
+.card .card-link .label > p {
+  opacity: 0;
+  position: absolute;
+  top: 75%;
+  left: -.75em;
+  transition: all ease 750ms;
+  color: #000;
+}
+
+.card .card-link .label:hover p {
+  opacity: 1;
+  font-size: 130%;
+}
+
 }
 
 .img-two {
