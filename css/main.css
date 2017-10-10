@@ -35,38 +35,59 @@ html {
 }
 
 .img-one {
-  background-image: #000, url("../images/ersatz-era-cover.jpg");
+  background-image: url("../images/ersatz-era-cover.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom left;
   position: relative;
 }
 
-.img-one {
-  background-image: url("../images/ersatz-era-cover.jpg");
+.img-two {
+  background-image: url("../images/animal-collective-book.jpg");
+  background-size: cover;
+  background-position: center top;
+  position: relative;
 }
 
 .label {
   height: 100%;
 }
 
-.card .card-link .label > p {
+.card > a {
+  background-color: rgba(244, 198, 73, .2);
+  transition: all ease-out 400ms;
+}
+
+.card > a:hover {
+  background-color: rgba(0,0,0,0);
+}
+
+.card .card-link .label > h2 {
   opacity: 0;
   position: absolute;
-  top: 75%;
+  top: 65%;
   left: -.75em;
-  transition: all ease 750ms;
+  transition: all ease-out 400ms;
   color: #000;
+  line-height: .925;
+  z-index: 1;
 }
 
-.card .card-link .label:hover p {
+.card .card-link .label:hover > h2 {
   opacity: 1;
-  font-size: 130%;
+  transform: translateY(10px);
 }
 
+.img-two .card-link .label > h2 {
+  opacity: 0;
+  position: absolute;
+  top: 65%;
+  right: -.75em;
+  transition: all ease-out 400ms;
+  color: #000;
+  line-height: .925;
+  z-index: 1;
 }
 
-.img-two {
-  background-color: #cecece;
 }
 
 .img-three {
@@ -121,6 +142,16 @@ nav a:hover {
 .about-bg {
   background-color: #e2e2e2;
   height: 100%;
+}
+
+.piece-bg {
+  background-color: #bba7ff;
+  height: 25%;
+}
+
+.img-contain {
+  height: 100%;
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -191,8 +222,8 @@ nav a:hover {
   }
 
   nav {
-    top: 2.5em;
-    right: 2.5em;
+    top: 2.7em;
+    right: 2em;
   }
 
   .about-txt {
