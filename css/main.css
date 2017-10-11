@@ -88,8 +88,6 @@ html {
   z-index: 1;
 }
 
-}
-
 .img-three {
   background-color: #9d9d9d;
 }
@@ -186,6 +184,10 @@ nav a:hover {
     font-size: 1.2em;
   }
 
+  .piece-bg {
+    height: 50%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -230,6 +232,11 @@ nav a:hover {
     max-width: 50%;
     font-size: 1.3em;
   }
+
+  .piece-bg {
+    height: 70%;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
