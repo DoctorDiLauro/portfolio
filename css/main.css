@@ -105,8 +105,6 @@ html {
 .title {
   font-size: 300%;
   line-height: .9;
-
-  border-bottom: #000 solid 7px;
   transition: all ease 400ms;
 }
 
@@ -161,8 +159,6 @@ nav a:hover {
 
   .title {
     font-size: 500%;
-
-    border-bottom: #000 solid 10px;
   }
 
 }
@@ -175,8 +171,6 @@ nav a:hover {
 
   .title {
     font-size: 700%;
-
-    border-bottom: #000 solid 12px;
   }
 
   .about-txt {
@@ -198,8 +192,6 @@ nav a:hover {
 
   .title {
     font-size: 800%;
-
-    border-bottom: #000 solid 16px;
   }
 
   .colour {
@@ -243,12 +235,6 @@ nav a:hover {
 
   .border {
     padding: 4em;
-  }
-
-  .title {
-    font-size: 900%;
-
-    border-bottom: #000 solid 20px;
   }
 
 }
