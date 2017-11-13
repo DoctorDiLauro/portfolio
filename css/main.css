@@ -60,6 +60,10 @@ html {
   height: 100%;
 }
 
+.title {
+  max-height: 429px;
+}
+
 .card > a {
   background-color: rgba(244, 198, 73, .2);
   transition: all ease-out 400ms;
@@ -111,8 +115,6 @@ html {
 }
 
 .title {
-  height: 60%;
-  width: 60%;
   transition: all ease 400ms;
 }
 
@@ -165,21 +167,12 @@ nav a:hover {
     padding: 2.5em;
   }
 
-  .title {
-    height: 70%;
-    width: 70%;
-  }
-
 }
 
 @media only screen and (min-width: 38em) {
 
   .border {
     padding: 3em;
-  }
-
-  .title {
-    font-size: 700%;
   }
 
   .about-txt {
@@ -197,10 +190,6 @@ nav a:hover {
 
   .border {
     padding: 3.5em;
-  }
-
-  .title {
-    font-size: 800%;
   }
 
   .colour {
