@@ -122,6 +122,7 @@ html {
 .about-txt {
   max-width: 65%;
   font-size: 85%;
+  line-height: 1.2;
 }
 
 nav {
