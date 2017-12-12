@@ -152,14 +152,19 @@ nav a:hover {
   height: 100%;
 }
 
-.piece-bg {
-  background-color: #bba7ff;
-  height: 25%;
+.hmb-bg {
+  background-image: url("../images/hmb-banner-small");
+  background-size: cover;
+  background-position: center;
+  max-height: 25%;
 }
 
 .img-contain {
   height: 100%;
+}
 
+.banner-large {
+  display: none;
 }
 
 @media only screen and (min-width: 25em) {
