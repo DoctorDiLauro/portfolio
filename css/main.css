@@ -153,7 +153,14 @@ nav a:hover {
 }
 
 .hmb-bg {
-  background-image: url("../images/hmb-banner-small");
+  background-image: url("../images/hmb-banner-small.jpg");
+  background-size: cover;
+  background-position: center;
+  max-height: 25%;
+}
+
+.cheo-bg {
+  background-image: url("../images/cheo-banner.jpg");
   background-size: cover;
   background-position: center;
   max-height: 25%;
@@ -161,11 +168,9 @@ nav a:hover {
 
 .img-contain {
   height: 100%;
+  overflow: hidden;
 }
 
-.banner-large {
-  display: none;
-}
 
 @media only screen and (min-width: 25em) {
 
