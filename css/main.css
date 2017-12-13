@@ -112,6 +112,7 @@ html {
   position: absolute;
   top: .75em;
   left: 1em;
+  text-align: left;
 }
 
 .title {
@@ -151,20 +152,6 @@ nav a:hover {
   height: 100%;
 }
 
-.hmb-bg {
-  background-image: url("../images/hmb-banner-small.jpg");
-  background-size: cover;
-  background-position: center;
-  max-height: 25%;
-}
-
-.cheo-bg {
-  background-image: url("../images/cheo-banner.jpg");
-  background-size: cover;
-  background-position: center;
-  max-height: 25%;
-}
-
 .img-contain {
   height: 100%;
   overflow: hidden;
@@ -172,7 +159,6 @@ nav a:hover {
 
 
 @media only screen and (min-width: 25em) {
-
 
   .border {
     padding: 2.5em;
@@ -189,10 +175,6 @@ nav a:hover {
   .about-txt {
     max-width: 60%;
     font-size: 1.2em;
-  }
-
-  .piece-bg {
-    height: 50%;
   }
 
 }
@@ -234,16 +216,24 @@ nav a:hover {
     font-size: 1.5em;
   }
 
-  .piece-bg {
-    height: 70%;
-  }
-
 }
 
 @media only screen and (min-width: 90em) {
 
   .border {
     padding: 4em;
+  }
+
+  .title {
+    max-width: 30vw;
+  }
+
+  .img-flex {
+    width: 100vw;
+  }
+
+  .about-txt {
+    font-size: 2.5em;
   }
 
 }
