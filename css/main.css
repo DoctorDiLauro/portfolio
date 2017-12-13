@@ -218,14 +218,14 @@ nav a:hover {
 
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 104em) {
 
   .border {
     padding: 4em;
   }
 
   .title {
-    max-width: 30vw;
+    max-height: 700px;
   }
 
   .img-flex {
