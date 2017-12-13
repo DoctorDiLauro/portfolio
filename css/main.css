@@ -48,11 +48,14 @@ html {
   position: relative;
 }
 
-.img-three {
+.img-four {
+  background-image: url("../images/cheo-cover.jpg");
+  background-size: cover 90%;
+  background-position: center;
   position: relative;
 }
 
-.img-four {
+.img-three {
   position: relative;
 }
 
@@ -103,10 +106,6 @@ html {
 
 .img-three {
   background-color: #9d9d9d;
-}
-
-.img-four {
-  background-color: #838383;
 }
 
 .text {
