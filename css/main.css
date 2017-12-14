@@ -56,7 +56,7 @@ html {
 }
 
 .img-three {
-  background-image: url("../images/rc-cover.jpg");
+  background-image: url("jpg");
   background-size: cover;
   background-position: center;
   position: relative;
