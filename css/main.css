@@ -72,7 +72,7 @@ html {
 }
 
 .card > a {
-  background-color: rgba(244, 198, 73, .2);
+  background-color: rgba(244, 198, 73, .1);
   transition: all ease-out 400ms;
 }
 
