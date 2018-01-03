@@ -158,7 +158,6 @@ nav a:hover {
 
 .img-contain {
   height: 100%;
-  overflow: hidden;
 }
 
 
@@ -179,6 +178,11 @@ nav a:hover {
   .about-txt {
     max-width: 60%;
     font-size: 1.2em;
+  }
+
+  .img-contain {
+    height: 100%;
+    overflow: hidden;
   }
 
 }
