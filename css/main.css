@@ -119,13 +119,29 @@ html {
   text-align: left;
 }
 
+.text-right {
+  position: absolute;
+  bottom: -6em;
+  right: -1em;
+  text-align: right;
+  z-index: 1;
+}
+
+.text-bottom {
+  position: absolute;
+  bottom: -6em;
+  left: -1.5em;
+  text-align: left;
+  z-index: 1;
+}
+
 .title {
   transition: all ease 400ms;
 }
 
 .about-txt {
   max-width: 65%;
-  font-size: 70%;
+  font-size: 75%;
   line-height: 1.2;
 }
 
@@ -182,6 +198,9 @@ nav a:hover {
   height: 100%;
 }
 
+.image-anchor {
+  position: relative;
+}
 
 @media only screen and (min-width: 25em) {
 
