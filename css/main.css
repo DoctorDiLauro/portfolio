@@ -35,28 +35,28 @@ html {
 }
 
 .img-one {
-  background-image: url("../images/ersatz-era-cover.jpg");
+  background-image: url("../images/home/ersatz-era-cover.jpg");
   background-size: cover;
   background-position: bottom left;
   position: relative;
 }
 
 .img-two {
-  background-image: url("../images/animal-collective-book.jpg");
+  background-image: url("../images/home/animal-collective-book.jpg");
   background-size: cover;
   background-position: center top;
   position: relative;
 }
 
 .img-four {
-  background-image: url("../images/cheo-cover.jpg");
+  background-image: url("../images/home/cheo-cover.jpg");
   background-size: cover 90%;
   background-position: center;
   position: relative;
 }
 
 .img-three {
-  background-image: url("../images/rc-cover.jpg");
+  background-image: url("../images/home/rc-cover.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
