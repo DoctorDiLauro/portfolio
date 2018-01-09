@@ -140,7 +140,7 @@ html {
 }
 
 .about-txt {
-  max-width: 65%;
+  max-width: 60%;
   font-size: 75%;
   line-height: 1.2;
 }
@@ -196,7 +196,7 @@ h3 {
 .about-bg {
   background-image: url("../images/about/chris-dilauro-portrait.jpg");
   background-size: cover;
-  background-position: center top ;
+  background-position: top ;
   height: 100%;
 }
 
