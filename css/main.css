@@ -145,6 +145,11 @@ html {
   line-height: 1.2;
 }
 
+.section-txt {
+  margin-left: -1.25em;
+  max-width: 100%;
+}
+
 nav {
   position: absolute;
   top: 1em;
@@ -165,6 +170,10 @@ nav a {
 
 nav a:hover {
   padding: 1em 2em;
+}
+
+h3 {
+  font-size: 150%;
 }
 
 .error-button {
@@ -194,12 +203,8 @@ nav a:hover {
   height: 100%;
 }
 
-.img-contain {
-  height: 100%;
-}
-
-.image-anchor {
-  position: relative;
+.img-description {
+  font-size: 80%;
 }
 
 @media only screen and (min-width: 25em) {
@@ -224,6 +229,13 @@ nav a:hover {
   .img-contain {
     height: 100%;
     overflow: hidden;
+  }
+
+  .small-img {
+    border: solid 1px #f4c649;
+    padding: 2em;
+    max-width: 75%;
+    margin: auto;
   }
 
 }
@@ -268,6 +280,17 @@ nav a:hover {
   .error-button {
     float: left;
     font-size: .75rem;
+  }
+
+  .small-img {
+    border: solid 1px #f4c649;
+    padding: 3em;
+    max-width: 65%;
+    margin: auto;
+  }
+
+  .img-description {
+    margin-top: -2em;
   }
 
 }
