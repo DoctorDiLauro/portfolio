@@ -194,7 +194,9 @@ h3 {
 }
 
 .about-bg {
-  background-color: #e2e2e2;
+  background-image: url("/images/chris-dilauro-portrait.jpg");
+  background-size: cover;
+  background-position: center top ;
   height: 100%;
 }
 
