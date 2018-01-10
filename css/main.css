@@ -80,18 +80,7 @@ html {
   display: none;
 }
 
-.card > a {
-  background-color: rgba(244, 198, 73, .1);
-  background-color: rgba(0, 0, 0, .1);
-  transition: all ease-out 400ms;
-}
-
-.card > a:hover {
-  background-color: rgba(0,0,0,0);
-}
-
 .card .card-link .label > h2 {
-  opacity: 0;
   position: absolute;
   top: 65%;
   left: -.75em;
@@ -101,13 +90,7 @@ html {
   z-index: 1;
 }
 
-.card .card-link .label:hover > h2 {
-  opacity: 1;
-  transform: translateY(10px);
-}
-
 .img-two .card-link .label > h2 {
-  opacity: 0;
   position: absolute;
   top: 65%;
   right: -.75em;
@@ -244,13 +227,6 @@ h3 {
     overflow: hidden;
   }
 
-  .small-img {
-    border: solid 1px #f4c649;
-    padding: 2em;
-    width: 75vw;
-    margin: auto;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -278,6 +254,37 @@ h3 {
     height: 100%;
     width: 25%;
     float: left;
+  }
+
+  .card > a:hover {
+    background-color: rgba(0,0,0,0);
+  }
+
+  .card .card-link .label > h2 {
+    opacity: 0;
+    position: absolute;
+    top: 65%;
+    left: -.75em;
+    transition: all ease-out 400ms;
+    color: #000;
+    line-height: .925;
+    z-index: 1;
+  }
+
+  .card .card-link .label:hover > h2 {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+
+  .img-two .card-link .label > h2 {
+    opacity: 0;
+    position: absolute;
+    top: 65%;
+    right: -.75em;
+    transition: all ease-out 400ms;
+    color: #000;
+    line-height: .925;
+    z-index: 1;
   }
 
   nav {
