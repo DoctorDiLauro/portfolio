@@ -249,7 +249,7 @@ h3 {
     left: 50%;
     transform: translateX(-50%);
     transition: all ease-out 400ms;
-    animation: point 800ms ease-in;
+    animation: point 1.75s ease;
   }
 
     @keyframes point {
