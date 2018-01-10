@@ -4,6 +4,10 @@ html {
   font-weight: bold;
 }
 
+.source-code {
+  font-family: "source-code-pro", monospace;
+}
+
 .border {
   background-color: #fff;
   height: 100vh;
@@ -208,6 +212,7 @@ h3 {
 
 .img-description {
   font-size: 80%;
+  font-family: "source-code-pro", monospace;
 }
 
 @media only screen and (min-width: 25em) {
