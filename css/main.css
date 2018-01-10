@@ -36,6 +36,7 @@ html {
   display: block;
   height: 100%;
   width: 100%;
+  position: relative;
 }
 
 .img-one {
@@ -73,6 +74,10 @@ html {
 .title {
   max-height: 429px;
   width: 55vw;
+}
+
+.card .card-link .arrow > img {
+  display: none;
 }
 
 .card > a {
@@ -299,6 +304,13 @@ h3 {
 
   .img-description {
     margin-top: -2em;
+  }
+
+  .card .card-link .arrow > img {
+    height: 64px;
+    margin: auto;
+    margin-top: -2em;
+    display: block;
   }
 
 }
