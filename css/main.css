@@ -249,7 +249,20 @@ h3 {
     left: 50%;
     transform: translateX(-50%);
     transition: all ease-out 400ms;
+    animation: point 800ms ease-in;
   }
+
+    @keyframes point {
+      from {
+        transform: translateY(40px) translateX(-50%);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0px) translateX(-50%);
+        opacity: 1;
+      }
+    }
 
   .card .card-link:hover .arrow > img {
     transform: translateY(-10px) translateX(-50%);
