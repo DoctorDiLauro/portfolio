@@ -112,7 +112,7 @@ html {
 }
 
 nav {
-  position: absolute;
+  position: fixed;
   top: 1em;
   right: .75em;
 }
@@ -138,7 +138,7 @@ h3 {
   line-height: 1.1;
 }
 
-.error-button {
+.page-button {
   text-decoration: none;
   color: #000;
   border: 1px solid #000;
@@ -151,7 +151,7 @@ h3 {
   transition: all ease 400ms;
 }
 
-.error-button:hover {
+.page-button:hover {
   padding: 1em 2em;
 }
 
@@ -275,7 +275,7 @@ h3 {
     font-size: 1.5em;
   }
 
-  .error-button {
+  .page-button {
     float: left;
     font-size: .75rem;
   }
