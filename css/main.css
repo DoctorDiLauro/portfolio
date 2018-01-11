@@ -254,7 +254,7 @@ h3 {
 
   @keyframes point {
     from {
-      transform: translateY(20px) translateX(-50%);
+      transform: translateY(30px) translateX(-50%);
       opacity: 0;
     }
 
