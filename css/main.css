@@ -182,11 +182,6 @@ h3 {
     font-size: 1.2em;
   }
 
-  .img-contain {
-    height: 100%;
-    overflow: hidden;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -202,7 +197,8 @@ h3 {
     float: left;
   }
 
-  .cards {
+  .cards,
+  .card {
     display: inline-block;
     height: 100%;
     width: 80%;
@@ -210,14 +206,10 @@ h3 {
   }
 
   .card {
-    display: inline-block;
-    height: 100%;
     width: 25%;
-    float: left;
   }
 
   .card > a {
-    background-color: rgba(244, 198, 73, .1);
     background-color: rgba(0, 0, 0, .1);
     transition: all ease-out 400ms;
   }
