@@ -157,7 +157,8 @@ h3 {
   height: 100%;
 }
 
-.img-description {
+.img-description,
+.contact-info {
   font-size: 80%;
   font-family: "source-code-pro", monospace;
 }
