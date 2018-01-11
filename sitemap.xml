@@ -1,0 +1,35 @@
+<?xml verison="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemap.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://itschris.ca/</loc>
+    <priority>1</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://itschris/the-heavy-medicine-band/</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://itschris/lyric-book/</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://itschris/the-record-centre/</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://itschris/cheo/</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://itschris/about/</loc>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
