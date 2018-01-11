@@ -249,12 +249,12 @@ h3 {
     left: 50%;
     transform: translateX(-50%);
     transition: all ease-out 400ms;
-    animation: point 1s ease-out;
+    animation: point 800ms ease-out;
   }
 
   @keyframes point {
     from {
-      transform: translateY(40px) translateX(-50%);
+      transform: translateY(20px) translateX(-50%);
       opacity: 0;
     }
 
