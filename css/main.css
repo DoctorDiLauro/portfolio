@@ -252,17 +252,17 @@ h3 {
     animation: point 1.25s ease-out;
   }
 
-    @keyframes point {
-      from {
-        transform: translateY(40px) translateX(-50%);
-        opacity: 0;
-      }
-
-      to {
-        transform: translateY(0px) translateX(-50%);
-        opacity: 1;
-      }
+  @keyframes point {
+    from {
+      transform: translateY(40px) translateX(-50%);
+      opacity: 0;
     }
+
+    to {
+      transform: translateY(0px) translateX(-50%);
+      opacity: 1;
+    }
+  }
 
   .card .card-link:hover .arrow > img {
     transform: translateY(-10px) translateX(-50%);
