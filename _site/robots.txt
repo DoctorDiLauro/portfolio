@@ -1,4 +1,0 @@
-Sitemap: https://itschris.ca/sitemap.xml
-
-User-agent: *
-Disallow: /img
